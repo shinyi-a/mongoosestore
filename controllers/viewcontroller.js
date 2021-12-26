@@ -1,4 +1,5 @@
 const express = require("express");
+const app = express();
 
 app.get("/seed", async (req, res) => {
   const newProducts = [
