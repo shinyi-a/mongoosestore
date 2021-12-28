@@ -1,10 +1,8 @@
-// const express = require("express");
-// const app = express();
 const mongoose = require("mongoose");
 const app = require("./app");
-const PORT = process.env.PORT || 8000;
 require("dotenv").config();
 
+const PORT = process.env.PORT || 8000;
 const MONGO_PWD = process.env.MONGO_PWD;
 const MONGO_DATABASE = process.env.MONGO_DATABASE;
 const MONGO_USER = process.env.MONGO_USER;
